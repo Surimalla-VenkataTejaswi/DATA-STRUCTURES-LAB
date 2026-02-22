@@ -1,14 +1,14 @@
 #include<iostream>
 Using namespace std;
-Int main( )
+int main( )
 {
-Int a[10],n,i,*p;
-Cout<<"enter total number of array elements:";
-Cin>>n;
-P=a;
+int a[10],n,i,*p;
+cout<<"enter total number of array elements:";
+cin>>n;
+p=a;
 for(i=0;i<n;i++)
-Cin>>*(p+i);
-Cout<<"\n array elements";
+cin>>*(p+i);
+cout<<"\n array elements";
 for(i=0;i<n;i++)
-Cout<<*(p+i)<<"  ";
+cout<<*(p+i)<<"  ";
 }
